@@ -16,7 +16,7 @@ namespace MazeDrawer
             var hero = Player.GetPlayer;
 
 
-            for (var i = 0; i < maze.Width + 2; i++)
+            for (var i = 0; i < maze.Width + 1; i++)
             {
                 mazeStr.Append("-");
             }
